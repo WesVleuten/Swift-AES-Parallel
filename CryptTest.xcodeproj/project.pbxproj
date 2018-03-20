@@ -21,7 +21,6 @@
 		D4CB6F8F2056B16900055013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CB6F8D2056B16900055013 /* LaunchScreen.storyboard */; };
 		D4CB6F9A2056B16900055013 /* CryptTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB6F992056B16900055013 /* CryptTestTests.swift */; };
 		D4CB6FA52056B16900055013 /* CryptTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB6FA42056B16900055013 /* CryptTestUITests.swift */; };
-		D4CB70002056B6BE00055013 /* helloworld.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4CB6FFF2056B6BE00055013 /* helloworld.txt */; };
 		D4CB70022056BCB200055013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB6F862056B16700055013 /* ViewController.swift */; };
 		D4D5C0EA20597C1D002D08DC /* SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D23282058A397004D36FB /* SHA256.swift */; };
 /* End PBXBuildFile section */
@@ -62,7 +61,6 @@
 		D4CB6FA02056B16900055013 /* CryptTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CB6FA42056B16900055013 /* CryptTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptTestUITests.swift; sourceTree = "<group>"; };
 		D4CB6FA62056B16900055013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4CB6FFF2056B6BE00055013 /* helloworld.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = helloworld.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +144,6 @@
 				D4CB6F8B2056B16900055013 /* Assets.xcassets */,
 				D4CB6F8D2056B16900055013 /* LaunchScreen.storyboard */,
 				D4CB6F902056B16900055013 /* Info.plist */,
-				D4CB6FFF2056B6BE00055013 /* helloworld.txt */,
 				D45454C12061A67000DE7527 /* test.zip.enc */,
 				D48D232A2058A4F1004D36FB /* CryptTest-Swift.h */,
 			);
@@ -283,7 +280,6 @@
 			files = (
 				D4CB6F8F2056B16900055013 /* LaunchScreen.storyboard in Resources */,
 				D4CB6F8C2056B16900055013 /* Assets.xcassets in Resources */,
-				D4CB70002056B6BE00055013 /* helloworld.txt in Resources */,
 				D4CB6F8A2056B16700055013 /* Main.storyboard in Resources */,
 				D45454C22061A67100DE7527 /* test.zip.enc in Resources */,
 			);
@@ -425,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -479,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;

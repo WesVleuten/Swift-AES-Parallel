@@ -6,6 +6,8 @@
 //  Copyright © 2016 SwiftyBeaver. All rights reserved.
 //
 
+//  MODIFIED to work with raw Data objects
+
 import Foundation
 
 /// cross-platform random numbers generator
